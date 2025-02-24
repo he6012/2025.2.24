@@ -34,3 +34,18 @@
 - hr : 가로선을 만드는 태그
 - textarea rows="행의개수" cols="열의개수"...textarea : 많은양의 글자를 입력할 수 있는 태그
 #### block 속성 : 태그가 끝나면 알아서 줄바꿈이 됨
+
+# CSS
+- CSS 적용방식
+  1. 인라인방식(태그에 직접 적용)
+     - h2 style="color:red" > 인라인 적용/h2
+  3. embedded방식
+     - header > style > h2{ colorL: "red";} > style > header
+  4. 링크방식(외부의 CSS파일을 불러와서 적용)
+     - link rel=stylesheet" type="text/css" href='css 외부파일경로'>
+  5.import방식
+     - @import url(css/style.css);
+      
+- 태그를 직접 선택
+  - 문서에 해당 태그의 디자인이 전부다 바뀜
+  - 단점 : 내가 원하는 것만 바꿀수가 없음
