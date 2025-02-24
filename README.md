@@ -43,7 +43,7 @@
      - header > style > h2{ colorL: "red";} > style > header
   4. 링크방식(외부의 CSS파일을 불러와서 적용)
      - link rel=stylesheet" type="text/css" href='css 외부파일경로'>
-  5.import방식
+  5. import방식
      - @import url(css/style.css);
       
 - 태그를 직접 선택
